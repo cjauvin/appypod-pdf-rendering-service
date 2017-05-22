@@ -22,9 +22,10 @@ or
 
     $ python test.py
 
-They both should result in a `test.pdf` rendered file.
+They both should result in a `test.pdf` rendered file if the container
+is properly running.
 
 ## Caveats
 
-* appy.pod is Python 2 only
+* appy.pod is Python 2 only (hence the need to install it in the Xenial container)
 * Runs the Flask server directly (using uWSGI e.g. would be more robust)
