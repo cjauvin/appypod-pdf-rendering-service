@@ -8,6 +8,7 @@ the [appy.pod](http://appyframework.org/pod.html) Python library.
 
     $ cd appypod-pdf-rendering-service
     $ docker build -t appypod-pdf-rendering-service .
+    $ docker run -p 80:12345 -it --rm --name appypod-pdf-rendering-service appypod-pdf-rendering-service
 
 ## To Test
 
